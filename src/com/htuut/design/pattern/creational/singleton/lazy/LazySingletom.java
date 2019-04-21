@@ -11,6 +11,8 @@ public class LazySingletom implements Serializable {
 
     private LazySingletom() {
 
+        //懒加载的方式没法避免反射问题（在多线程环境下，如果反射先拿到对象，就完了）
+
     }
 
     /**

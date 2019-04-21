@@ -17,6 +17,10 @@ public class StaticInnerClassSingleton {
 
     private StaticInnerClassSingleton() {
 
+        //防止反射创建对象：静态的方式解决方式（类加载的时候就创建对象了）
+        if (InnerClass.instance != null) {
+            throw new RuntimeException("单利类不允许反射创建对象");
+        }
     }
 
 

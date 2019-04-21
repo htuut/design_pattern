@@ -11,6 +11,10 @@ public class HungrySingleton implements Serializable {
 
     private HungrySingleton() {
 
+        //防止反射创建对象：静态的方式解决方式（类加载的时候就创建对象了）
+        if (instance != null) {
+            throw new RuntimeException("单利类不允许反射创建对象");
+        }
     }
 
     public HungrySingleton getInstance() {
