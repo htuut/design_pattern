@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ba1ee19-000d-4c37-97e6-3706ea972dbd" name="Default Changelist" comment="" />
+    <list default="true" id="3ba1ee19-000d-4c37-97e6-3706ea972dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/VideoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/impl/JavaVideoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/impl/PythonVideoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/test/TestVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/video/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/video/impl/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/video/impl/PathonVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/uml.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/uml/uml.png" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +29,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="JavaVideoFactory" value="3" />
+          <entry key="TestVideo" value="1" />
+          <entry key="Video" value="1" />
+          <entry key="VideoFactory" value="1" />
+          <entry key="factorymethod" value="1" />
+          <entry key="java" value="13" />
           <entry key="png" value="2" />
           <entry key="simplefactory" value="1" />
         </counts>
@@ -27,72 +42,31 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="5" />
-          <entry key="UML" value="1" />
+          <entry key="JAVA" value="13" />
+          <entry key="UML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="577" />
+          <entry key="java" value="772" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="577" />
+          <entry key="JAVA" value="772" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/Video.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/JavaVideo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/VideoFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/TestVideo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/test/TestVideo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/PathonVideo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="418">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,6 +92,12 @@
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/PathonVideo.java" />
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/VideoFactory.java" />
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/TestVideo.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/test/TestVideo.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/video/impl/PathonVideo.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/VideoFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/impl/JavaVideoFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/impl/PythonVideoFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/test/TestVideo.java" />
       </list>
     </option>
   </component>
@@ -132,6 +112,9 @@
     <option name="y" value="-8" />
     <option name="width" value="816" />
     <option name="height" value="576" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -199,6 +182,17 @@
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htuut" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
               <item name="simplefactory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -212,11 +206,25 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555814667317" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555816256718" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\simplefactory\uml" />
+      <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\factorymethod\uml" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.htuut.design.pattern.creational.factorymethod.factory.impl" />
+      <recent name="com.htuut.design.pattern.creational.factorymethod.factory" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\factorymethod\video" />
+      <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\simplefactory" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -230,7 +238,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestVideo (1)">
+    <configuration name="TestVideo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.htuut.design.pattern.creational.factorymethod.test.TestVideo" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htuut.design.pattern.creational.factorymethod.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestVideo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.htuut.design.pattern.creational.simplefactory.test.TestVideo" />
       <module name="design_pattern" />
@@ -244,8 +265,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TestVideo" />
+      <item itemvalue="Application.TestVideo (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestVideo (1)" />
         <item itemvalue="Application.TestVideo" />
       </list>
     </recent_temporary>
@@ -260,12 +286,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555811948114</updated>
-      <workItem from="1555811950839" duration="2175000" />
+      <workItem from="1555811950839" duration="3771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2175000" />
+    <option name="totallyTimeSpent" value="3771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -285,7 +311,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24212812" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29967427" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,10 +335,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/PathonVideo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/video/impl/PathonVideo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
             <element signature="e#143#144#0" expanded="true" />
             <element signature="e#179#180#0" expanded="true" />
@@ -320,17 +346,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/Video.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/video/Video.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/JavaVideo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/video/impl/JavaVideo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding>
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#175#176#0" expanded="true" />
@@ -366,20 +392,213 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/uml.png">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/uml/uml.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/VideoFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/test/TestVideo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/TestVideo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/factory/VideoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="95">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/video/Video.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/video/impl/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/video/impl/PathonVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/impl/PythonVideoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/VideoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.htuut.design.pattern.creational.factorymethod">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.htuut.design.pattern.creational.factorymethod</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">com.htuut.design.pattern.creational.factorymethod.factory</node>
+            <node x="0.0" y="150.0">com.htuut.design.pattern.creational.factorymethod.test</node>
+            <node x="0.0" y="75.0">com.htuut.design.pattern.creational.factorymethod.video</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-476.5" y="31.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.htuut.design.pattern.creational.factorymethod.factory.VideoFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.htuut.design.pattern.creational.factorymethod.factory.VideoFactory</OriginalElement>
+          <nodes>
+            <node x="101.0" y="0.0">com.htuut.design.pattern.creational.factorymethod.factory.VideoFactory</node>
+            <node x="0.0" y="103.0">com.htuut.design.pattern.creational.factorymethod.factory.impl.PythonVideoFactory</node>
+            <node x="183.0" y="103.0">com.htuut.design.pattern.creational.factorymethod.factory.impl.JavaVideoFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.htuut.design.pattern.creational.factorymethod.factory.impl.PythonVideoFactory" target="com.htuut.design.pattern.creational.factorymethod.factory.VideoFactory">
+              <point x="0.0" y="-26.5" />
+              <point x="81.5" y="78.0" />
+              <point x="135.25" y="78.0" />
+              <point x="-34.25" y="26.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.creational.factorymethod.factory.impl.JavaVideoFactory" target="com.htuut.design.pattern.creational.factorymethod.factory.VideoFactory">
+              <point x="0.0" y="-26.5" />
+              <point x="257.5" y="78.0" />
+              <point x="203.75" y="78.0" />
+              <point x="34.25" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-373.0" y="-4.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.htuut.design.pattern.creational.factorymethod.test.TestVideo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.htuut.design.pattern.creational.factorymethod.test.TestVideo</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">com.htuut.design.pattern.creational.factorymethod.test.TestVideo</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-486.0" y="-44.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.htuut.design.pattern.creational.factorymethod.factory.impl.JavaVideoFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.htuut.design.pattern.creational.factorymethod.factory.impl.JavaVideoFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.factory.VideoFactory</node>
+            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.video.impl.PathonVideo</node>
+            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.video.impl.JavaVideo</node>
+            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.factory.impl.PythonVideoFactory</node>
+            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.video.Video</node>
+            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.factory.impl.JavaVideoFactory</node>
+            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.test.TestVideo</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="242.5" y="178.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/impl/JavaVideoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.htuut.design.pattern.creational.factorymethod.video.Video">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.htuut.design.pattern.creational.factorymethod.video.Video</OriginalElement>
+          <nodes>
+            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.factory.VideoFactory</node>
+            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.factory.impl.PythonVideoFactory</node>
+            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.video.Video</node>
+            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.factory.impl.JavaVideoFactory</node>
+            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.test.TestVideo</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="166.0" y="92.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/test/TestVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
