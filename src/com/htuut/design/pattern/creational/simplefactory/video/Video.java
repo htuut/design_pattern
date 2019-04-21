@@ -1,4 +1,4 @@
-package com.htuut.design.pattern.creational.simplefactory;
+package com.htuut.design.pattern.creational.simplefactory.video;
 
 /**
  * @author htuut

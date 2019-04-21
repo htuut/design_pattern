@@ -1,4 +1,6 @@
-package com.htuut.design.pattern.creational.simplefactory;
+package com.htuut.design.pattern.creational.simplefactory.video.impl;
+
+import com.htuut.design.pattern.creational.simplefactory.video.Video;
 
 public class PathonVideo extends Video {
 

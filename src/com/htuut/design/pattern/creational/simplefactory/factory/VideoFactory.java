@@ -1,4 +1,8 @@
-package com.htuut.design.pattern.creational.simplefactory;
+package com.htuut.design.pattern.creational.simplefactory.factory;
+
+import com.htuut.design.pattern.creational.simplefactory.video.Video;
+import com.htuut.design.pattern.creational.simplefactory.video.impl.JavaVideo;
+import com.htuut.design.pattern.creational.simplefactory.video.impl.PathonVideo;
 
 public class VideoFactory {
 
