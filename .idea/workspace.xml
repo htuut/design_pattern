@@ -2,18 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ba1ee19-000d-4c37-97e6-3706ea972dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/CourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl/JavaCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl/PythobCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/java/note/impl/JavaVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/java/video/impl/JavaNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/python/note/impl/PythonVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/python/video/impl/PythonNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/test/TestCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design_pattern/com/htuut/design/pattern/creational/simplefactory/uml.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_pattern/com/htuut/design/pattern/creational/factorymethod/uml/uml1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_pattern/com/htuut/design/pattern/creational/factorymethod/uml/uml2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_pattern/com/htuut/design/pattern/creational/simplefactory/uml/uml.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/CourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/factory/CourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl/JavaCourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/factory/impl/JavaCourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl/PythobCourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/factory/impl/PythobCourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/java/note/impl/JavaVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/java/note/impl/JavaVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/java/video/impl/JavaNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/java/video/impl/JavaNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/python/note/impl/PythonVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/python/note/impl/PythonVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/python/video/impl/PythonNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/python/video/impl/PythonNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/test/TestCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/test/TestCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/uml/uml1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/uml/uml1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/uml/uml2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/uml/uml2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/VideoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/factory/VideoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/impl/JavaVideoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/factory/impl/JavaVideoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/impl/PythonVideoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/factory/impl/PythonVideoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/test/TestVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/test/TestVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/uml/uml1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/uml/uml1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/uml/uml2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/uml/uml2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/video/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/video/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/video/impl/JavaVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/video/impl/JavaVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/video/impl/PathonVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/video/impl/PathonVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/factory/VideoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/factory/VideoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/test/TestVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/test/TestVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/uml/uml.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/uml/uml.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/video/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/video/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/video/impl/JavaVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/video/impl/JavaVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/video/impl/PathonVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/video/impl/PathonVideo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,35 +53,39 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="JavaCourseFactory" value="1" />
+          <entry key="JavaScript-modules-diagram/D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/factory;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/note;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/note/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/video;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/video/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/note;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/note/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/video;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/video/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/test;" value="1" />
           <entry key="JavaVideoFactory" value="3" />
           <entry key="TestVideo" value="1" />
           <entry key="Video" value="1" />
           <entry key="VideoFactory" value="1" />
           <entry key="class" value="1" />
           <entry key="factorymethod" value="1" />
-          <entry key="java" value="30" />
-          <entry key="png" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="31" />
+          <entry key="png" value="4" />
           <entry key="simplefactory" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Image" value="2" />
-          <entry key="JAVA" value="30" />
-          <entry key="UML" value="9" />
+          <entry key="Image" value="4" />
+          <entry key="JAVA" value="31" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="UML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="1106" />
+          <entry key="gitignore" value="4" />
+          <entry key="java" value="1150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1106" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="JAVA" value="1150" />
+          <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
     </session>
@@ -69,209 +93,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/CourseFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl/JavaCourseFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl/PythobCourseFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/factory/CourseFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/test/TestCourse.java">
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/test/TestCourse.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
               <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory</OriginalElement>
-              <nodes>
-                <node x="712.0" y="124.5">com.htuut.design.pattern.creational.abstractfactory.python.note.impl.PythonVideo</node>
-                <node x="173.99999999999997" y="124.5">com.htuut.design.pattern.creational.abstractfactory.java.note.impl.JavaVideo</node>
-                <node x="0.0" y="124.5">com.htuut.design.pattern.creational.abstractfactory.java.video.impl.JavaNote</node>
-                <node x="348.0" y="113.0">com.htuut.design.pattern.creational.abstractfactory.factory.CourseFactory</node>
-                <node x="538.0" y="124.5">com.htuut.design.pattern.creational.abstractfactory.python.video.impl.PythonNote</node>
-                <node x="150.47499999999997" y="239.0">com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory</node>
-                <node x="270.72499999999997" y="0.0">com.htuut.design.pattern.creational.abstractfactory.Note</node>
-                <node x="548.4749999999999" y="239.0">com.htuut.design.pattern.creational.abstractfactory.factory.impl.PythobCourseFactory</node>
-                <node x="147.97499999999997" y="365.0">com.htuut.design.pattern.creational.abstractfactory.test.TestCourse</node>
-                <node x="444.725" y="0.0">com.htuut.design.pattern.creational.abstractfactory.Video</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.PythobCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.python.note.impl.PythonVideo">
-                  <point x="57.0" y="-38.0" />
-                  <point x="690.9749999999999" y="214.0" />
-                  <point x="789.0" y="214.0" />
-                  <point x="0.0" y="26.5" />
-                </edge>
-                <edge source="com.htuut.design.pattern.creational.abstractfactory.python.video.impl.PythonNote" target="com.htuut.design.pattern.creational.abstractfactory.Note">
-                  <point x="0.0" y="-26.5" />
-                  <point x="615.0" y="83.0" />
-                  <point x="386.22499999999997" y="83.0" />
-                  <point x="38.5" y="26.5" />
-                </edge>
-                <edge source="com.htuut.design.pattern.creational.abstractfactory.test.TestCourse" target="com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory">
-                  <point x="0.0" y="-26.5" />
-                  <point x="0.0" y="38.0" />
-                </edge>
-                <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.PythobCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.factory.CourseFactory">
-                  <point x="-57.0" y="-38.0" />
-                  <point x="576.9749999999999" y="214.0" />
-                  <point x="475.5" y="214.0" />
-                  <point x="42.5" y="38.0" />
-                </edge>
-                <edge source="com.htuut.design.pattern.creational.abstractfactory.java.note.impl.JavaVideo" target="com.htuut.design.pattern.creational.abstractfactory.Video">
-                  <point x="2.8421709430404007E-14" y="-26.5" />
-                  <point x="251.0" y="93.0" />
-                  <point x="483.225" y="93.0" />
-                  <point x="-38.5" y="26.5" />
-                </edge>
-                <edge source="com.htuut.design.pattern.creational.abstractfactory.python.note.impl.PythonVideo" target="com.htuut.design.pattern.creational.abstractfactory.Video">
-                  <point x="0.0" y="-26.5" />
-                  <point x="789.0" y="73.0" />
-                  <point x="560.225" y="73.0" />
-                  <point x="38.5" y="26.5" />
-                </edge>
-                <edge source="com.htuut.design.pattern.creational.abstractfactory.java.video.impl.JavaNote" target="com.htuut.design.pattern.creational.abstractfactory.Note">
-                  <point x="0.0" y="-26.5" />
-                  <point x="77.0" y="83.0" />
-                  <point x="309.22499999999997" y="83.0" />
-                  <point x="-38.5" y="26.5" />
-                </edge>
-                <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.java.note.impl.JavaVideo">
-                  <point x="0.0" y="-38.0" />
-                  <point x="235.47499999999997" y="214.0" />
-                  <point x="250.99999999999997" y="214.0" />
-                  <point x="0.0" y="26.5" />
-                </edge>
-                <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.java.video.impl.JavaNote">
-                  <point x="-56.66666666666666" y="-38.0" />
-                  <point x="178.8083333333333" y="214.0" />
-                  <point x="77.0" y="214.0" />
-                  <point x="0.0" y="26.5" />
-                </edge>
-                <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.factory.CourseFactory">
-                  <point x="56.666666666666686" y="-38.0" />
-                  <point x="292.14166666666665" y="214.0" />
-                  <point x="390.5" y="214.0" />
-                  <point x="-42.5" y="38.0" />
-                </edge>
-                <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.PythobCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.python.video.impl.PythonNote">
-                  <point x="0.0" y="-38.0" />
-                  <point x="633.9749999999999" y="214.0" />
-                  <point x="615.0" y="214.0" />
-                  <point x="0.0" y="26.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-260.5" y="186.5" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/Video.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/java/note/impl/JavaVideo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-              <folding>
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/java/video/impl/JavaNote.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-              <folding>
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/python/note/impl/PythonVideo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/python/video/impl/PythonNote.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -318,6 +158,9 @@
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl/JavaCourseFactory.java" />
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl/PythobCourseFactory.java" />
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/test/TestCourse.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/factory/CourseFactory.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/test/TestCourse.java" />
       </list>
     </option>
   </component>
@@ -351,6 +194,11 @@
             <path>
               <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -402,18 +250,6 @@
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htuut" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -425,21 +261,8 @@
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htuut" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
               <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
@@ -450,126 +273,7 @@
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="note" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htuut" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="note" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htuut" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htuut" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htuut" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htuut" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="note" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htuut" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="note" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htuut" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htuut" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htuut" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
               <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -584,7 +288,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555818863735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555819416647" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/uml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -624,24 +328,11 @@
   </component>
   <component name="RunManager" selected="Application.TestCourse">
     <configuration name="TestCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.htuut.design.pattern.creational.abstractfactory.test.TestCourse" />
+      <option name="MAIN_CLASS_NAME" value="com.htuut.design.pattern.creational.factory.abstractfactory.test.TestCourse" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.htuut.design.pattern.creational.abstractfactory.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVideo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.htuut.design.pattern.creational.factorymethod.test.TestVideo" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.htuut.design.pattern.creational.factorymethod.test.*" />
+          <option name="PATTERN" value="com.htuut.design.pattern.creational.factory.abstractfactory.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -650,11 +341,24 @@
       </method>
     </configuration>
     <configuration name="TestVideo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.htuut.design.pattern.creational.simplefactory.test.TestVideo" />
+      <option name="MAIN_CLASS_NAME" value="com.htuut.design.pattern.creational.factory.simplefactory.test.TestVideo" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.htuut.design.pattern.creational.simplefactory.video.impl.*" />
+          <option name="PATTERN" value="com.htuut.design.pattern.creational.factory.simplefactory.video.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVideo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.htuut.design.pattern.creational.factory.factorymethod.test.TestVideo" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htuut.design.pattern.creational.factory.factorymethod.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -685,12 +389,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555811948114</updated>
-      <workItem from="1555811950839" duration="6140000" />
+      <workItem from="1555811950839" duration="6802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6140000" />
+    <option name="totallyTimeSpent" value="6802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -701,7 +405,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -710,7 +414,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17155266" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17155266" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -734,7 +438,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/video/impl/PathonVideo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/video/impl/PathonVideo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
@@ -745,14 +449,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/video/Video.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/video/Video.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/video/impl/JavaVideo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/video/impl/JavaVideo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
@@ -791,10 +495,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/uml/uml.png">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/uml/uml.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/test/TestVideo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/test/TestVideo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
@@ -804,7 +508,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/factory/VideoFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/factory/VideoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
@@ -814,24 +518,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/video/Video.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/video/Video.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/video/impl/JavaVideo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/video/impl/JavaVideo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/video/impl/PathonVideo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/video/impl/PathonVideo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/impl/PythonVideoFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/factory/impl/PythonVideoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
@@ -841,7 +545,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/VideoFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/factory/VideoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
@@ -959,7 +663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/factory/impl/JavaVideoFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/factory/impl/JavaVideoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="29" />
@@ -991,7 +695,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factorymethod/test/TestVideo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/test/TestVideo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
@@ -1064,21 +768,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/Note.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/Note.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/Video.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/Video.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/java/note/impl/JavaVideo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/java/note/impl/JavaVideo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
@@ -1089,7 +793,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/java/video/impl/JavaNote.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/java/video/impl/JavaNote.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
@@ -1100,31 +804,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/python/note/impl/PythonVideo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/python/note/impl/PythonVideo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="7" column="37" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/python/video/impl/PythonNote.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/python/video/impl/PythonNote.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/CourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl/JavaCourseFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/factory/impl/JavaCourseFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
@@ -1138,7 +832,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl/PythobCourseFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/factory/impl/PythobCourseFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
@@ -1151,91 +845,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/factory;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/note;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/note/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/video;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/video/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/note;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/note/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/video;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/video/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/test;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/factory;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/note;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/note/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/video;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/video/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/note;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/note/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/video;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/video/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/test;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://JAVA/com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory</OriginalElement>
           <nodes>
-            <node x="712.0" y="124.5">com.htuut.design.pattern.creational.abstractfactory.python.note.impl.PythonVideo</node>
-            <node x="173.99999999999997" y="124.5">com.htuut.design.pattern.creational.abstractfactory.java.note.impl.JavaVideo</node>
-            <node x="0.0" y="124.5">com.htuut.design.pattern.creational.abstractfactory.java.video.impl.JavaNote</node>
+            <node x="0.0" y="124.5">com.htuut.design.pattern.creational.abstractfactory.python.note.impl.PythonVideo</node>
+            <node x="538.0" y="124.5">com.htuut.design.pattern.creational.abstractfactory.java.note.impl.JavaVideo</node>
+            <node x="712.0" y="124.5">com.htuut.design.pattern.creational.abstractfactory.java.video.impl.JavaNote</node>
             <node x="348.0" y="113.0">com.htuut.design.pattern.creational.abstractfactory.factory.CourseFactory</node>
-            <node x="538.0" y="124.5">com.htuut.design.pattern.creational.abstractfactory.python.video.impl.PythonNote</node>
-            <node x="150.47499999999997" y="239.0">com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory</node>
-            <node x="270.72499999999997" y="0.0">com.htuut.design.pattern.creational.abstractfactory.Note</node>
-            <node x="548.4749999999999" y="239.0">com.htuut.design.pattern.creational.abstractfactory.factory.impl.PythobCourseFactory</node>
-            <node x="147.97499999999997" y="365.0">com.htuut.design.pattern.creational.abstractfactory.test.TestCourse</node>
-            <node x="444.725" y="0.0">com.htuut.design.pattern.creational.abstractfactory.Video</node>
+            <node x="174.0" y="124.5">com.htuut.design.pattern.creational.abstractfactory.python.video.impl.PythonNote</node>
+            <node x="547.2333333333333" y="239.0">com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory</node>
+            <node x="442.98333333333335" y="0.0">com.htuut.design.pattern.creational.abstractfactory.Note</node>
+            <node x="148.23333333333335" y="239.0">com.htuut.design.pattern.creational.abstractfactory.factory.impl.PythobCourseFactory</node>
+            <node x="345.5" y="365.0">com.htuut.design.pattern.creational.abstractfactory.test.TestCourse</node>
+            <node x="268.98333333333335" y="0.0">com.htuut.design.pattern.creational.abstractfactory.Video</node>
           </nodes>
           <notes />
           <edges>
             <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.PythobCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.python.note.impl.PythonVideo">
-              <point x="57.0" y="-38.0" />
-              <point x="690.9749999999999" y="214.0" />
-              <point x="789.0" y="214.0" />
+              <point x="-57.0" y="-38.0" />
+              <point x="176.73333333333335" y="214.0" />
+              <point x="77.0" y="214.0" />
               <point x="0.0" y="26.5" />
             </edge>
             <edge source="com.htuut.design.pattern.creational.abstractfactory.python.video.impl.PythonNote" target="com.htuut.design.pattern.creational.abstractfactory.Note">
               <point x="0.0" y="-26.5" />
-              <point x="615.0" y="83.0" />
-              <point x="386.22499999999997" y="83.0" />
-              <point x="38.5" y="26.5" />
+              <point x="251.0" y="93.0" />
+              <point x="481.48333333333335" y="93.0" />
+              <point x="-38.5" y="26.5" />
             </edge>
             <edge source="com.htuut.design.pattern.creational.abstractfactory.test.TestCourse" target="com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory">
-              <point x="0.0" y="-26.5" />
+              <point x="43.75" y="-26.5" />
+              <point x="476.75" y="340.0" />
+              <point x="632.2333333333333" y="340.0" />
               <point x="0.0" y="38.0" />
             </edge>
             <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.PythobCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.factory.CourseFactory">
-              <point x="-57.0" y="-38.0" />
-              <point x="576.9749999999999" y="214.0" />
-              <point x="475.5" y="214.0" />
-              <point x="42.5" y="38.0" />
-            </edge>
-            <edge source="com.htuut.design.pattern.creational.abstractfactory.java.note.impl.JavaVideo" target="com.htuut.design.pattern.creational.abstractfactory.Video">
-              <point x="2.8421709430404007E-14" y="-26.5" />
-              <point x="251.0" y="93.0" />
-              <point x="483.225" y="93.0" />
-              <point x="-38.5" y="26.5" />
-            </edge>
-            <edge source="com.htuut.design.pattern.creational.abstractfactory.python.note.impl.PythonVideo" target="com.htuut.design.pattern.creational.abstractfactory.Video">
-              <point x="0.0" y="-26.5" />
-              <point x="789.0" y="73.0" />
-              <point x="560.225" y="73.0" />
-              <point x="38.5" y="26.5" />
-            </edge>
-            <edge source="com.htuut.design.pattern.creational.abstractfactory.java.video.impl.JavaNote" target="com.htuut.design.pattern.creational.abstractfactory.Note">
-              <point x="0.0" y="-26.5" />
-              <point x="77.0" y="83.0" />
-              <point x="309.22499999999997" y="83.0" />
-              <point x="-38.5" y="26.5" />
-            </edge>
-            <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.java.note.impl.JavaVideo">
-              <point x="0.0" y="-38.0" />
-              <point x="235.47499999999997" y="214.0" />
-              <point x="250.99999999999997" y="214.0" />
-              <point x="0.0" y="26.5" />
-            </edge>
-            <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.java.video.impl.JavaNote">
-              <point x="-56.66666666666666" y="-38.0" />
-              <point x="178.8083333333333" y="214.0" />
-              <point x="77.0" y="214.0" />
-              <point x="0.0" y="26.5" />
-            </edge>
-            <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.factory.CourseFactory">
-              <point x="56.666666666666686" y="-38.0" />
-              <point x="292.14166666666665" y="214.0" />
+              <point x="57.0" y="-38.0" />
+              <point x="290.73333333333335" y="214.0" />
               <point x="390.5" y="214.0" />
               <point x="-42.5" y="38.0" />
             </edge>
-            <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.PythobCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.python.video.impl.PythonNote">
+            <edge source="com.htuut.design.pattern.creational.abstractfactory.java.note.impl.JavaVideo" target="com.htuut.design.pattern.creational.abstractfactory.Video">
+              <point x="0.0" y="-26.5" />
+              <point x="615.0" y="83.0" />
+              <point x="384.48333333333335" y="83.0" />
+              <point x="38.5" y="26.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.creational.abstractfactory.python.note.impl.PythonVideo" target="com.htuut.design.pattern.creational.abstractfactory.Video">
+              <point x="0.0" y="-26.5" />
+              <point x="77.0" y="83.0" />
+              <point x="307.48333333333335" y="83.0" />
+              <point x="-38.5" y="26.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.creational.abstractfactory.java.video.impl.JavaNote" target="com.htuut.design.pattern.creational.abstractfactory.Note">
+              <point x="0.0" y="-26.5" />
+              <point x="789.0" y="73.0" />
+              <point x="558.4833333333333" y="73.0" />
+              <point x="38.5" y="26.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.java.note.impl.JavaVideo">
               <point x="0.0" y="-38.0" />
-              <point x="633.9749999999999" y="214.0" />
+              <point x="632.2333333333333" y="214.0" />
               <point x="615.0" y="214.0" />
               <point x="0.0" y="26.5" />
             </edge>
+            <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.java.video.impl.JavaNote">
+              <point x="56.666666666666686" y="-38.0" />
+              <point x="688.9" y="214.0" />
+              <point x="789.0" y="214.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.JavaCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.factory.CourseFactory">
+              <point x="-56.66666666666666" y="-38.0" />
+              <point x="575.5666666666666" y="214.0" />
+              <point x="475.5" y="214.0" />
+              <point x="42.5" y="38.0" />
+            </edge>
+            <edge source="com.htuut.design.pattern.creational.abstractfactory.factory.impl.PythobCourseFactory" target="com.htuut.design.pattern.creational.abstractfactory.python.video.impl.PythonNote">
+              <point x="0.0" y="-38.0" />
+              <point x="233.73333333333335" y="214.0" />
+              <point x="251.0" y="214.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.creational.abstractfactory.test.TestCourse" target="com.htuut.design.pattern.creational.abstractfactory.factory.impl.PythobCourseFactory">
+              <point x="-43.75" y="-26.5" />
+              <point x="389.25" y="340.0" />
+              <point x="233.73333333333335" y="340.0" />
+              <point x="0.0" y="38.0" />
+            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-260.5" y="186.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-101.5" y="93.5" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1249,7 +968,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/test/TestCourse.java">
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/uml/uml2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/uml/uml1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/factory/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/test/TestCourse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
