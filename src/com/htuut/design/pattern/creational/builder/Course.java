@@ -31,6 +31,9 @@ public class Course {
                 '}';
     }
 
+    /**
+     * 链式
+     */
     public static class CourseBuilder {
 
         private String courseName;

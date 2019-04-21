@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ba1ee19-000d-4c37-97e6-3706ea972dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/builder/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/builder/TestBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/hungry/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazyDoubleCheckSingletom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazySingletom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/StaticInnerClassSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/builder/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/builder/Course.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +26,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Course" value="1" />
           <entry key="JavaCourseFactory" value="1" />
           <entry key="JavaScript-modules-diagram/D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/factory;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/factory/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/note;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/note/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/video;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/java/video/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/note;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/note/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/video;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/python/video/impl;D:/github/design_pattern/src/com/htuut/design/pattern/creational/abstractfactory/test;" value="1" />
           <entry key="JavaVideoFactory" value="3" />
@@ -32,7 +36,7 @@
           <entry key="class" value="1" />
           <entry key="factorymethod" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="33" />
+          <entry key="java" value="37" />
           <entry key="png" value="4" />
           <entry key="simplefactory" value="1" />
         </counts>
@@ -41,21 +45,21 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="33" />
+          <entry key="JAVA" value="37" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="UML" value="10" />
+          <entry key="UML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
           <entry key="gitignore" value="4" />
-          <entry key="java" value="1641" />
+          <entry key="java" value="2535" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1641" />
+          <entry key="JAVA" value="2535" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -87,15 +91,89 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/builder/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="253">
+              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
               <folding>
-                <element signature="e#1508#1509#0" expanded="true" />
-                <element signature="e#1548#1549#0" expanded="true" />
+                <element signature="e#1901#1902#0" expanded="true" />
+                <element signature="e#1948#1949#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazySingletom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <folding>
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazyDoubleCheckSingletom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+              <folding>
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/StaticInnerClassSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/hungry/HungrySingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="52" />
+              <folding>
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.htuut.design.pattern.creational.builder.Course">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.htuut.design.pattern.creational.builder.Course</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">com.htuut.design.pattern.creational.builder.Course</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-490.0" y="-43.5" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -103,8 +181,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/builder/TestBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -115,6 +193,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -156,6 +235,13 @@
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/test/TestCourse.java" />
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/builder/TestBuilder.java" />
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/builder/Course.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/LazySingletom.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/LazyDoubleCheckSingletom.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/StaticInnerClassSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/StaticInnerClassSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/hungry/HungrySingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazyDoubleCheckSingletom.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazySingletom.java" />
       </list>
     </option>
   </component>
@@ -245,7 +331,31 @@
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htuut" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="hungry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htuut" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="lazy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,7 +368,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555832470463" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555837316228" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/abstractfactory/uml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -270,11 +380,11 @@
       <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\factorymethod\uml" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.htuut.design.pattern.creational.singleton" />
       <recent name="com.htuut.design.pattern.creational.abstractfactory.factory.impl" />
       <recent name="com.htuut.design.pattern.creational.abstractfactory.python.video.impl" />
       <recent name="com.htuut.design.pattern.creational.abstractfactory.python.note.impl" />
       <recent name="com.htuut.design.pattern.creational.factorymethod.factory.impl" />
-      <recent name="com.htuut.design.pattern.creational.factorymethod.factory" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\abstractfactory\python\video" />
@@ -374,12 +484,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555811948114</updated>
-      <workItem from="1555811950839" duration="8832000" />
+      <workItem from="1555811950839" duration="13231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8832000" />
+    <option name="totallyTimeSpent" value="13231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -986,20 +1096,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/com.htuut.design.pattern.creational.builder.Course">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.htuut.design.pattern.creational.builder.Course</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">com.htuut.design.pattern.creational.builder.Course</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-490.0" y="-43.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/builder/TestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/builder/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="253">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
           <folding>
-            <element signature="e#1508#1509#0" expanded="true" />
-            <element signature="e#1548#1549#0" expanded="true" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/StaticInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/hungry/HungrySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazyDoubleCheckSingletom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding>
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazySingletom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
           </folding>
         </state>
       </provider>
