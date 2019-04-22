@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ba1ee19-000d-4c37-97e6-3706ea972dbd" name="Default Changelist" comment="" />
+    <list default="true" id="3ba1ee19-000d-4c37-97e6-3706ea972dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/prototype/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/prototype/TestSendMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/ABattercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/AbstractDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/Battercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/EggDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/SausageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/TestBattercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/GifExchangeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/Gift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/QualifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/ShippingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/TestGift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,105 +28,291 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/factory/CourseFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="uml://JAVA/com.htuut.design.pattern.structural.facade.GifExchangeService">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.htuut.design.pattern.structural.facade.GifExchangeService</OriginalElement>
+              <nodes>
+                <node x="412.83225108225116" y="423.0">com.htuut.design.pattern.structural.facade.TestGift</node>
+                <node x="230.00000000000003" y="250.0">com.htuut.design.pattern.structural.facade.GifExchangeService</node>
+                <node x="422.0" y="137.0">com.htuut.design.pattern.structural.facade.PayService</node>
+                <node x="475.8603896103896" y="0.0">com.htuut.design.pattern.structural.facade.Gift</node>
+                <node x="230.00000000000003" y="137.0">com.htuut.design.pattern.structural.facade.ShippingService</node>
+                <node x="0.0" y="137.0">com.htuut.design.pattern.structural.facade.QualifyService</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.htuut.design.pattern.structural.facade.TestGift" target="com.htuut.design.pattern.structural.facade.GifExchangeService">
+                  <point x="-66.00000000000006" y="-26.5" />
+                  <point x="434.8322510822511" y="403.0" />
+                  <point x="294.5" y="403.0" />
+                  <point x="-64.5" y="61.5" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.facade.TestGift" target="com.htuut.design.pattern.structural.facade.Gift">
+                  <point x="21.999999999999943" y="-26.5" />
+                  <point x="522.8322510822511" y="393.0" />
+                  <point x="612.5" y="393.0" />
+                  <point x="612.5" y="107.0" />
+                  <point x="577.8603896103896" y="107.0" />
+                  <point x="34.0" y="38.5" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.facade.GifExchangeService" target="com.htuut.design.pattern.structural.facade.Gift">
+                  <point x="110.57142857142856" y="-61.5" />
+                  <point x="469.57142857142856" y="230.0" />
+                  <point x="601.5" y="230.0" />
+                  <point x="601.5" y="117.0" />
+                  <point x="555.193722943723" y="117.0" />
+                  <point x="11.333333333333371" y="38.5" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.facade.ShippingService" target="com.htuut.design.pattern.structural.facade.Gift">
+                  <point x="0.0" y="-26.5" />
+                  <point x="316.0" y="107.0" />
+                  <point x="509.8603896103896" y="107.0" />
+                  <point x="-34.0" y="38.5" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.facade.GifExchangeService" target="com.htuut.design.pattern.structural.facade.ShippingService">
+                  <point x="-36.85714285714289" y="-61.5" />
+                  <point x="322.1428571428571" y="210.0" />
+                  <point x="273.0" y="210.0" />
+                  <point x="-43.0" y="26.5" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.facade.GifExchangeService" target="com.htuut.design.pattern.structural.facade.PayService">
+                  <point x="36.85714285714283" y="-61.5" />
+                  <point x="395.8571428571429" y="210.0" />
+                  <point x="464.25" y="210.0" />
+                  <point x="-42.25" y="26.5" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.facade.PayService" target="com.htuut.design.pattern.structural.facade.Gift">
+                  <point x="0.0" y="-26.5" />
+                  <point x="506.5" y="117.0" />
+                  <point x="532.5270562770562" y="117.0" />
+                  <point x="-11.333333333333371" y="38.5" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.facade.QualifyService" target="com.htuut.design.pattern.structural.facade.Gift">
+                  <point x="0.0" y="-26.5" />
+                  <point x="105.0" y="97.0" />
+                  <point x="487.19372294372295" y="97.0" />
+                  <point x="-56.666666666666686" y="38.5" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.facade.GifExchangeService" target="com.htuut.design.pattern.structural.facade.QualifyService">
+                  <point x="-73.71428571428572" y="-61.5" />
+                  <point x="285.28571428571433" y="220.0" />
+                  <point x="157.5" y="220.0" />
+                  <point x="52.5" y="26.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="5.0" y="174.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/abstractfactory/test/TestCourse.java">
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/ABattercake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/builder/Course.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazySingletom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="47" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="47" />
-              <folding>
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazyDoubleCheckSingletom.java">
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/Battercake.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/AbstractDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/EggDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/SausageDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding>
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.htuut.design.pattern.structural.decorator">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.htuut.design.pattern.structural.decorator</OriginalElement>
+              <nodes>
+                <node x="294.5" y="0.0">com.htuut.design.pattern.structural.decorator.ABattercake</node>
+                <node x="410.0" y="150.0">com.htuut.design.pattern.structural.decorator.Battercake</node>
+                <node x="0.0" y="300.0">com.htuut.design.pattern.structural.decorator.SausageDecorator</node>
+                <node x="131.0" y="126.0">com.htuut.design.pattern.structural.decorator.AbstractDecorator</node>
+                <node x="277.0" y="300.0">com.htuut.design.pattern.structural.decorator.EggDecorator</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.htuut.design.pattern.structural.decorator.AbstractDecorator" target="com.htuut.design.pattern.structural.decorator.ABattercake">
+                  <point x="0.0" y="-62.0" />
+                  <point x="260.5" y="101.0" />
+                  <point x="335.25" y="101.0" />
+                  <point x="-40.75" y="38.0" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.decorator.Battercake" target="com.htuut.design.pattern.structural.decorator.ABattercake">
+                  <point x="0.0" y="-38.0" />
+                  <point x="491.5" y="101.0" />
+                  <point x="416.75" y="101.0" />
+                  <point x="40.75" y="38.0" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.decorator.SausageDecorator" target="com.htuut.design.pattern.structural.decorator.AbstractDecorator">
+                  <point x="0.0" y="-50.0" />
+                  <point x="128.5" y="275.0" />
+                  <point x="195.75" y="275.0" />
+                  <point x="-64.75" y="62.0" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.decorator.EggDecorator" target="com.htuut.design.pattern.structural.decorator.AbstractDecorator">
+                  <point x="0.0" y="-50.0" />
+                  <point x="392.5" y="275.0" />
+                  <point x="325.25" y="275.0" />
+                  <point x="64.75" y="62.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-33.0" y="136.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/TestBattercake.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/hungry/EnumSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-              <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-              </folding>
+        <entry file="uml://JAVA/com.htuut.design.pattern.structural.decorator.ABattercake">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.htuut.design.pattern.structural.decorator.ABattercake</OriginalElement>
+              <nodes>
+                <node x="281.5" y="0.0">com.htuut.design.pattern.structural.decorator.ABattercake</node>
+                <node x="0.0" y="445.0">com.htuut.design.pattern.structural.decorator.TestBattercake</node>
+                <node x="397.0" y="150.0">com.htuut.design.pattern.structural.decorator.Battercake</node>
+                <node x="251.0" y="300.0">com.htuut.design.pattern.structural.decorator.SausageDecorator</node>
+                <node x="118.0" y="126.0">com.htuut.design.pattern.structural.decorator.AbstractDecorator</node>
+                <node x="0.0" y="300.0">com.htuut.design.pattern.structural.decorator.EggDecorator</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.htuut.design.pattern.structural.decorator.AbstractDecorator" target="com.htuut.design.pattern.structural.decorator.ABattercake">
+                  <point x="0.0" y="-62.0" />
+                  <point x="247.5" y="101.0" />
+                  <point x="322.25" y="101.0" />
+                  <point x="-40.75" y="38.0" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.decorator.Battercake" target="com.htuut.design.pattern.structural.decorator.ABattercake">
+                  <point x="0.0" y="-38.0" />
+                  <point x="478.5" y="101.0" />
+                  <point x="403.75" y="101.0" />
+                  <point x="40.75" y="38.0" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.decorator.SausageDecorator" target="com.htuut.design.pattern.structural.decorator.AbstractDecorator">
+                  <point x="0.0" y="-50.0" />
+                  <point x="379.5" y="275.0" />
+                  <point x="312.25" y="275.0" />
+                  <point x="64.75" y="62.0" />
+                </edge>
+                <edge source="com.htuut.design.pattern.structural.decorator.EggDecorator" target="com.htuut.design.pattern.structural.decorator.AbstractDecorator">
+                  <point x="0.0" y="-50.0" />
+                  <point x="115.5" y="275.0" />
+                  <point x="182.75" y="275.0" />
+                  <point x="-64.75" y="62.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="280.0" y="249.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/StaticInnerClassSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/hungry/HungrySingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="42" />
-              <folding>
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/builder/TestBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/uml/uml1.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -124,15 +326,20 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\github\design_pattern\src\com\htuut\design\pattern\creational\prototype</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/Video.java" />
-        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/JavaVideo.java" />
-        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/PathonVideo.java" />
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/VideoFactory.java" />
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/TestVideo.java" />
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/simplefactory/test/TestVideo.java" />
@@ -169,14 +376,29 @@
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazySingletom.java" />
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazyDoubleCheckSingletom.java" />
         <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/hungry/EnumSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/prototype/TestSendMail.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/creational/prototype/Mail.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/Gift.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/GifExchangeService.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/TestGift.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/PayService.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/QualifyService.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/ShippingService.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/ABattercake.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/Battercake.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/TestBattercake.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/decorators/SausageDecorator.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/SausageDecorator.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/AbstractDecorator.java" />
+        <option value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/EggDecorator.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="817" />
-    <option name="height" value="577" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="818" />
+    <option name="height" value="578" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -238,41 +460,74 @@
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="creational" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htuut" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htuut" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htuut" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="uml" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555855813887" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555945366642" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/uml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\simplefactory\uml" />
-      <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\factorymethod\uml" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.htuut.design.pattern.creational.singleton" />
-      <recent name="com.htuut.design.pattern.creational.abstractfactory.factory.impl" />
-      <recent name="com.htuut.design.pattern.creational.abstractfactory.python.video.impl" />
-      <recent name="com.htuut.design.pattern.creational.abstractfactory.python.note.impl" />
-      <recent name="com.htuut.design.pattern.creational.factorymethod.factory.impl" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\abstractfactory\python\video" />
       <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\abstractfactory\python\note" />
       <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\abstractfactory\java\video" />
       <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\abstractfactory\python" />
       <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\factorymethod\video" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.htuut.design.pattern.structural.decorator" />
+      <recent name="com.htuut.design.pattern.creational.singleton" />
+      <recent name="com.htuut.design.pattern.creational.abstractfactory.factory.impl" />
+      <recent name="com.htuut.design.pattern.creational.abstractfactory.python.video.impl" />
+      <recent name="com.htuut.design.pattern.creational.abstractfactory.python.note.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\simplefactory\uml" />
+      <recent name="D:\github\design_pattern\src\com\htuut\design\pattern\creational\factorymethod\uml" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,7 +542,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestBuilder">
+  <component name="RunManager" selected="Application.TestBattercake">
+    <configuration name="TestBattercake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.htuut.design.pattern.structural.decorator.TestBattercake" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htuut.design.pattern.structural.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.htuut.design.pattern.creational.builder.TestBuilder" />
       <module name="design_pattern" />
@@ -314,12 +582,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVideo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.htuut.design.pattern.creational.factory.simplefactory.test.TestVideo" />
+    <configuration name="TestGift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.htuut.design.pattern.structural.facade.TestGift" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.htuut.design.pattern.creational.factory.simplefactory.video.impl.*" />
+          <option name="PATTERN" value="com.htuut.design.pattern.structural.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSendMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.htuut.design.pattern.creational.prototype.TestSendMail" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htuut.design.pattern.creational.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,15 +622,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestVideo" />
       <item itemvalue="Application.TestCourse" />
       <item itemvalue="Application.TestBuilder" />
+      <item itemvalue="Application.TestSendMail" />
+      <item itemvalue="Application.TestGift" />
+      <item itemvalue="Application.TestBattercake" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBattercake" />
+        <item itemvalue="Application.TestGift" />
+        <item itemvalue="Application.TestSendMail" />
         <item itemvalue="Application.TestBuilder" />
         <item itemvalue="Application.TestCourse" />
-        <item itemvalue="Application.TestVideo" />
       </list>
     </recent_temporary>
   </component>
@@ -365,26 +650,27 @@
       <updated>1555811948114</updated>
       <workItem from="1555811950839" duration="13231000" />
       <workItem from="1555853267685" duration="2211000" />
+      <workItem from="1555936721300" duration="6010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15442000" />
+    <option name="totallyTimeSpent" value="21452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24664879" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29533115" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.058073655" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -394,7 +680,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,247 +691,13 @@
       <window_info anchor="right" id="PlantUML" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/video/impl/PathonVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/video/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/video/impl/JavaVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.htuut.design.pattern.creational.simplefactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.htuut.design.pattern.creational.simplefactory</OriginalElement>
-          <nodes>
-            <node x="" y="">com.htuut.design.pattern.creational.simplefactory.TestVideo</node>
-            <node x="" y="">com.htuut.design.pattern.creational.simplefactory.VideoFactory</node>
-            <node x="" y="">com.htuut.design.pattern.creational.simplefactory.Video</node>
-            <node x="" y="">com.htuut.design.pattern.creational.simplefactory.JavaVideo</node>
-            <node x="" y="">com.htuut.design.pattern.creational.simplefactory.PathonVideo</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="199.0" y="181.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/uml/uml.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/test/TestVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/simplefactory/factory/VideoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/video/Video.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/video/impl/JavaVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/video/impl/PathonVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/factory/impl/PythonVideoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/factory/VideoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.htuut.design.pattern.creational.factorymethod">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.htuut.design.pattern.creational.factorymethod</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">com.htuut.design.pattern.creational.factorymethod.factory</node>
-            <node x="0.0" y="150.0">com.htuut.design.pattern.creational.factorymethod.test</node>
-            <node x="0.0" y="75.0">com.htuut.design.pattern.creational.factorymethod.video</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-476.0" y="31.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.htuut.design.pattern.creational.factorymethod.factory.VideoFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.htuut.design.pattern.creational.factorymethod.factory.VideoFactory</OriginalElement>
-          <nodes>
-            <node x="101.0" y="0.0">com.htuut.design.pattern.creational.factorymethod.factory.VideoFactory</node>
-            <node x="0.0" y="103.0">com.htuut.design.pattern.creational.factorymethod.factory.impl.PythonVideoFactory</node>
-            <node x="183.0" y="103.0">com.htuut.design.pattern.creational.factorymethod.factory.impl.JavaVideoFactory</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.htuut.design.pattern.creational.factorymethod.factory.impl.PythonVideoFactory" target="com.htuut.design.pattern.creational.factorymethod.factory.VideoFactory">
-              <point x="0.0" y="-26.5" />
-              <point x="81.5" y="78.0" />
-              <point x="135.25" y="78.0" />
-              <point x="-34.25" y="26.5" />
-            </edge>
-            <edge source="com.htuut.design.pattern.creational.factorymethod.factory.impl.JavaVideoFactory" target="com.htuut.design.pattern.creational.factorymethod.factory.VideoFactory">
-              <point x="0.0" y="-26.5" />
-              <point x="257.5" y="78.0" />
-              <point x="203.75" y="78.0" />
-              <point x="34.25" y="26.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-373.0" y="-4.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.htuut.design.pattern.creational.factorymethod.test.TestVideo">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.htuut.design.pattern.creational.factorymethod.test.TestVideo</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">com.htuut.design.pattern.creational.factorymethod.test.TestVideo</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-486.0" y="-44.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.htuut.design.pattern.creational.factorymethod.factory.impl.JavaVideoFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.htuut.design.pattern.creational.factorymethod.factory.impl.JavaVideoFactory</OriginalElement>
-          <nodes>
-            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.factory.VideoFactory</node>
-            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.video.impl.PathonVideo</node>
-            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.video.impl.JavaVideo</node>
-            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.factory.impl.PythonVideoFactory</node>
-            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.video.Video</node>
-            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.factory.impl.JavaVideoFactory</node>
-            <node x="" y="">com.htuut.design.pattern.creational.factorymethod.test.TestVideo</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="243.0" y="179.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/factory/factorymethod/factory/impl/JavaVideoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.htuut.design.pattern.creational.factorymethod.video.Video">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -945,6 +997,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazySingletom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazyDoubleCheckSingletom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/StaticInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="9" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/hungry/HungrySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/builder/TestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -952,53 +1032,362 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/hungry/HungrySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="42" />
-          <folding>
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/StaticInnerClassSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazySingletom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="47" />
-          <folding>
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/lazy/LazyDoubleCheckSingletom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/singleton/hungry/EnumSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
           <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/prototype/TestSendMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/creational/prototype/Mail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/Gift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/GifExchangeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/PayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/QualifyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/ShippingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/TestGift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/facade/uml/uml1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="uml://JAVA/com.htuut.design.pattern.structural.facade.GifExchangeService">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.htuut.design.pattern.structural.facade.GifExchangeService</OriginalElement>
+          <nodes>
+            <node x="412.83225108225116" y="423.0">com.htuut.design.pattern.structural.facade.TestGift</node>
+            <node x="230.00000000000003" y="250.0">com.htuut.design.pattern.structural.facade.GifExchangeService</node>
+            <node x="422.0" y="137.0">com.htuut.design.pattern.structural.facade.PayService</node>
+            <node x="475.8603896103896" y="0.0">com.htuut.design.pattern.structural.facade.Gift</node>
+            <node x="230.00000000000003" y="137.0">com.htuut.design.pattern.structural.facade.ShippingService</node>
+            <node x="0.0" y="137.0">com.htuut.design.pattern.structural.facade.QualifyService</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.htuut.design.pattern.structural.facade.TestGift" target="com.htuut.design.pattern.structural.facade.GifExchangeService">
+              <point x="-66.00000000000006" y="-26.5" />
+              <point x="434.8322510822511" y="403.0" />
+              <point x="294.5" y="403.0" />
+              <point x="-64.5" y="61.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.facade.TestGift" target="com.htuut.design.pattern.structural.facade.Gift">
+              <point x="21.999999999999943" y="-26.5" />
+              <point x="522.8322510822511" y="393.0" />
+              <point x="612.5" y="393.0" />
+              <point x="612.5" y="107.0" />
+              <point x="577.8603896103896" y="107.0" />
+              <point x="34.0" y="38.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.facade.GifExchangeService" target="com.htuut.design.pattern.structural.facade.Gift">
+              <point x="110.57142857142856" y="-61.5" />
+              <point x="469.57142857142856" y="230.0" />
+              <point x="601.5" y="230.0" />
+              <point x="601.5" y="117.0" />
+              <point x="555.193722943723" y="117.0" />
+              <point x="11.333333333333371" y="38.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.facade.ShippingService" target="com.htuut.design.pattern.structural.facade.Gift">
+              <point x="0.0" y="-26.5" />
+              <point x="316.0" y="107.0" />
+              <point x="509.8603896103896" y="107.0" />
+              <point x="-34.0" y="38.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.facade.GifExchangeService" target="com.htuut.design.pattern.structural.facade.ShippingService">
+              <point x="-36.85714285714289" y="-61.5" />
+              <point x="322.1428571428571" y="210.0" />
+              <point x="273.0" y="210.0" />
+              <point x="-43.0" y="26.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.facade.GifExchangeService" target="com.htuut.design.pattern.structural.facade.PayService">
+              <point x="36.85714285714283" y="-61.5" />
+              <point x="395.8571428571429" y="210.0" />
+              <point x="464.25" y="210.0" />
+              <point x="-42.25" y="26.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.facade.PayService" target="com.htuut.design.pattern.structural.facade.Gift">
+              <point x="0.0" y="-26.5" />
+              <point x="506.5" y="117.0" />
+              <point x="532.5270562770562" y="117.0" />
+              <point x="-11.333333333333371" y="38.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.facade.QualifyService" target="com.htuut.design.pattern.structural.facade.Gift">
+              <point x="0.0" y="-26.5" />
+              <point x="105.0" y="97.0" />
+              <point x="487.19372294372295" y="97.0" />
+              <point x="-56.666666666666686" y="38.5" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.facade.GifExchangeService" target="com.htuut.design.pattern.structural.facade.QualifyService">
+              <point x="-73.71428571428572" y="-61.5" />
+              <point x="285.28571428571433" y="220.0" />
+              <point x="157.5" y="220.0" />
+              <point x="52.5" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="5.0" y="174.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.htuut.design.pattern.structural.decorator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.htuut.design.pattern.structural.decorator</OriginalElement>
+          <nodes>
+            <node x="294.5" y="0.0">com.htuut.design.pattern.structural.decorator.ABattercake</node>
+            <node x="410.0" y="150.0">com.htuut.design.pattern.structural.decorator.Battercake</node>
+            <node x="0.0" y="300.0">com.htuut.design.pattern.structural.decorator.SausageDecorator</node>
+            <node x="131.0" y="126.0">com.htuut.design.pattern.structural.decorator.AbstractDecorator</node>
+            <node x="277.0" y="300.0">com.htuut.design.pattern.structural.decorator.EggDecorator</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.htuut.design.pattern.structural.decorator.AbstractDecorator" target="com.htuut.design.pattern.structural.decorator.ABattercake">
+              <point x="0.0" y="-62.0" />
+              <point x="260.5" y="101.0" />
+              <point x="335.25" y="101.0" />
+              <point x="-40.75" y="38.0" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.decorator.Battercake" target="com.htuut.design.pattern.structural.decorator.ABattercake">
+              <point x="0.0" y="-38.0" />
+              <point x="491.5" y="101.0" />
+              <point x="416.75" y="101.0" />
+              <point x="40.75" y="38.0" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.decorator.SausageDecorator" target="com.htuut.design.pattern.structural.decorator.AbstractDecorator">
+              <point x="0.0" y="-50.0" />
+              <point x="128.5" y="275.0" />
+              <point x="195.75" y="275.0" />
+              <point x="-64.75" y="62.0" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.decorator.EggDecorator" target="com.htuut.design.pattern.structural.decorator.AbstractDecorator">
+              <point x="0.0" y="-50.0" />
+              <point x="392.5" y="275.0" />
+              <point x="325.25" y="275.0" />
+              <point x="64.75" y="62.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-33.0" y="136.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/ABattercake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/AbstractDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/Battercake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/EggDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/SausageDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htuut/design/pattern/structural/decorator/TestBattercake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.htuut.design.pattern.structural.decorator.ABattercake">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.htuut.design.pattern.structural.decorator.ABattercake</OriginalElement>
+          <nodes>
+            <node x="281.5" y="0.0">com.htuut.design.pattern.structural.decorator.ABattercake</node>
+            <node x="0.0" y="445.0">com.htuut.design.pattern.structural.decorator.TestBattercake</node>
+            <node x="397.0" y="150.0">com.htuut.design.pattern.structural.decorator.Battercake</node>
+            <node x="251.0" y="300.0">com.htuut.design.pattern.structural.decorator.SausageDecorator</node>
+            <node x="118.0" y="126.0">com.htuut.design.pattern.structural.decorator.AbstractDecorator</node>
+            <node x="0.0" y="300.0">com.htuut.design.pattern.structural.decorator.EggDecorator</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.htuut.design.pattern.structural.decorator.AbstractDecorator" target="com.htuut.design.pattern.structural.decorator.ABattercake">
+              <point x="0.0" y="-62.0" />
+              <point x="247.5" y="101.0" />
+              <point x="322.25" y="101.0" />
+              <point x="-40.75" y="38.0" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.decorator.Battercake" target="com.htuut.design.pattern.structural.decorator.ABattercake">
+              <point x="0.0" y="-38.0" />
+              <point x="478.5" y="101.0" />
+              <point x="403.75" y="101.0" />
+              <point x="40.75" y="38.0" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.decorator.SausageDecorator" target="com.htuut.design.pattern.structural.decorator.AbstractDecorator">
+              <point x="0.0" y="-50.0" />
+              <point x="379.5" y="275.0" />
+              <point x="312.25" y="275.0" />
+              <point x="64.75" y="62.0" />
+            </edge>
+            <edge source="com.htuut.design.pattern.structural.decorator.EggDecorator" target="com.htuut.design.pattern.structural.decorator.AbstractDecorator">
+              <point x="0.0" y="-50.0" />
+              <point x="115.5" y="275.0" />
+              <point x="182.75" y="275.0" />
+              <point x="-64.75" y="62.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="280.0" y="249.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -1008,6 +1397,17 @@
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
