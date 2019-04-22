@@ -1,6 +1,6 @@
 - #### 简单工厂
 #### com.htuut.design.pattern.creational.factory.simplefactory
-- #### 简单工厂
+- #### 工厂方法
 #### com.htuut.design.pattern.creational.factory.factorymethod
 - #### 抽象工厂
 #### com.htuut.design.pattern.creational.factory.abstractfactory
