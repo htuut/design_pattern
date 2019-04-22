@@ -12,3 +12,5 @@
 #### com.htuut.design.pattern.creational.prototype
 - #### 门面模式
 #### com.htuut.design.pattern.structural.facade
+- #### 装饰着模式
+#### com.htuut.design.pattern.structural.decorator
